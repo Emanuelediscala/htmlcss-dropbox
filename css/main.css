@@ -60,3 +60,10 @@ section div > h1 {
 .wid30 img {
     width: 100%;
 }
+.wid30 h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.wid50 h2 {
+    margin-bottom:1em;
+}
