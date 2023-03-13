@@ -8,3 +8,18 @@
 .navLeft {
     width: 25%;
 }
+/* Main css */
+section div > h1 {
+    font-size: 5em;
+    font-weight: 700;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.titleinfo p {
+    line-height: 1em;
+    font-size: 1.2em;
+}
+#jumbo {
+    width: 100%;
+
+}
