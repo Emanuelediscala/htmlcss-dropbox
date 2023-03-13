@@ -13,6 +13,9 @@
     max-width: 1000px;
     margin: 0 auto;
 }
+.wid30 {
+    width: 30%;
+}
 .wid50 {
     width: 50%;
 }
@@ -70,6 +73,9 @@
 }
 .alignitmflexEnd {
     align-items:flex-end;
+}
+.wrap {
+    flex-wrap: wrap;
 }
 /* Margin css  */
 .margin-top-15 {
