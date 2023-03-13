@@ -25,14 +25,22 @@
 .wid100 {
     width: 100%;
 }
-
-.h500px {
-    height:820px;
+.empyblock {
+    width: 100%;
+    background-color: red;
+} 
+.h100vh {
+    height:100vh;
 }
-
+.pad {
+    padding: 2em;
+}
 /* BG color  */
 .bgLightblue {
     background-color: #b4d0e7;
+}
+.bgWhite {
+    background-color: white;
 }
 
 /* FLEX CSS */
@@ -94,4 +102,7 @@
 }
 .margin-bottom-75 {
     margin-bottom: 75px;
+}
+.margin-right-5 {
+    margin-right: 5px;
 }
