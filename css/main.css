@@ -30,20 +30,27 @@ section div > h1 {
 }
 /* 2th section */
 #emptycircle {
-    margin-right: 50px;
+    margin-right: 3em;
 }
 .containerSolutions {
-    width:30%;
+    width:31%;
     border: 2px black solid;
     margin-top: 1em;
 }
-.containerSolutions h5 {
+.containerSolutionsBottom {
+    width:100%;
+    border: 2px black solid;
+    margin-top: 1em;
+}
+
+
+.containerSolutions h5,.containerSolutionsBottom h5 {
     text-align: center;
-    padding: 10px 0;
+    padding: 0.6em 0;
 }
 .containerSolutions span:last-of-type {
     margin-bottom:9em;
 }
-.containerSolutions:nth-child(2) span:last-of-type {
+.containerSolutions:nth-child(2) span:last-of-type{
     margin-bottom: 0px;
 }

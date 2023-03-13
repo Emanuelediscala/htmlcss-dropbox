@@ -29,8 +29,8 @@
     width: 100%;
     background-color: red;
 } 
-.h100vh {
-    height:100vh;
+.h80vh {
+    height:80vh;
 }
 .pad {
     padding: 2em;
