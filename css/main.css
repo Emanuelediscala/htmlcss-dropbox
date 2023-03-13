@@ -1,0 +1,10 @@
+/* Header css */
+.navLeft, .navRight {
+    padding: 1em;
+}
+.navRight {
+    width: 23%;
+}
+.navLeft {
+    width: 25%;
+}

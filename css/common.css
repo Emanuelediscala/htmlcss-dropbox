@@ -1,37 +1,54 @@
+/* GENERICO CSS  */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: arial;
+}
+.boxedLarge {
+    max-width: 1200px;
+    margin:0 auto;
+}
+.boxedSmall {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.wid100 {
+    width: 100%;
+}
+.h100px {
+    height: 100px;
+}
+/* BG color  */
+.bgLightblue {
+    background-color: #b4d0e7;
 }
 
-.margin-top-15 {
-    margin-top: 15px;
+/* FLEX CSS */
+.flex {
+    display: flex;
 }
-.margin-top-30 {
-    margin-top: 30px;
+.column {
+    flex-direction: column;
 }
-.margin-top-45 {
-    margin-top: 45px;
+.jtfcontCenter {
+    justify-content: center;
 }
-.margin-top-60 {
-    margin-top: 60px;
+.jtfcontSpacebet {
+    justify-content: space-between;
 }
-.margin-top-75 {
-    margin-top: 75px;
+.jtfcontSpacearound {
+    justify-content:space-around;
 }
-
-.margin-bottom-15 {
-    margin-bottom: 15px;
+.jtfcontSpaceEvenly {
+    justify-content:space-evenly;
 }
-.margin-bottom-30 {
-    margin-bottom: 30px;
+.alignitmCenter {
+    align-items: center;
 }
-.margin-bottom-45 {
-    margin-bottom: 45px;
+.alignitmflexStart {
+    align-items:flex-start
 }
-.margin-bottom-60 {
-    margin-bottom: 60px;
-}
-.margin-bottom-75 {
-    margin-bottom: 75px;
+.alignitmflexEnd {
+    align-items:flex-end;
 }
