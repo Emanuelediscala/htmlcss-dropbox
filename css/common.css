@@ -43,11 +43,17 @@
 .h80vh {
     height:80vh;
 }
+.h20vh {
+    height: 20vh;
+}
 .h30vw {
     height: 33vw;
 }
 .pad {
     padding: 2em;
+}
+.padUpDown {
+    margin: 2em 0;
 }
 .overflowYHidden {
     overflow-y: scroll;
@@ -83,6 +89,9 @@
 /* FLEX CSS */
 .flex {
     display: flex;
+}
+.jtfcontFlexstart {
+    justify-content: flex-start;
 }
 .column {
     flex-direction: column;
@@ -151,4 +160,7 @@
 }
 .margin-right-5 {
     margin-right: 5px;
+}
+.margin-left-0 {
+    margin-left: 0px;
 }
