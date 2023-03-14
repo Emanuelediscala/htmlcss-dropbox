@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: arial;
     font-family: 'Open Sans', sans-serif;
-
+    font-family: 14px;
 }
 .boxedLarge {
     max-width: 1200px;
@@ -30,6 +30,9 @@
 .wid60 {
     width: 60%;
 }
+.wid70 {
+    width: 70%;
+}
 .wid80 {
     width: 80%;
 }
@@ -40,6 +43,9 @@
     width: 100%;
     background-color: red;
 } 
+.inlineBlock {
+    display: inline-block;
+}
 .h80vh {
     height:80vh;
 }
@@ -52,13 +58,32 @@
 .pad {
     padding: 2em;
 }
+.pad4em {
+    padding: 4em;
+}
 .padUpDown {
     margin: 2em 0;
 }
+
 .overflowYHidden {
     overflow-y: scroll;
 }
+.relative {
+    position: relative;
+}
+.cWhite {
+    color: white;
+}
+.cGray {
+    color: gray;
+}
+.dispNone {
+    display: none;
+}
 /* BG color  */
+.bgBlueButton {
+    background-color:#0061ff;
+}
 .bgLightblue {
     background-color: #b4d0e7;
 }
@@ -86,6 +111,10 @@
 .bgYellow {
     background-color: yellow;
 }
+.bgBlack {
+    background-color: black;
+}
+
 /* FLEX CSS */
 .flex {
     display: flex;
@@ -123,6 +152,13 @@
 .gap1em {
     gap: 1em;
 }
+.gap2em {
+    gap: 2em;
+}
+.gap3em {
+    gap: 3em;
+}
+
 /* Margin css  */
 .margin-top-15 {
     margin-top: 15px;
@@ -157,6 +193,9 @@
 }
 .margin-bottom-75 {
     margin-bottom: 75px;
+}
+.margin-bottom-100 {
+    margin-bottom: 100px;
 }
 .margin-right-5 {
     margin-right: 5px;

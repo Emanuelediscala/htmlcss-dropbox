@@ -11,12 +11,26 @@ z-index: 999;
     width: 23%;
 }
 .navLeft {
-    width: 25%;
+    width: 26%;
+}
+nav a {
+    text-decoration: none;
+    color: #000;   
+}
+nav a:hover {
+    text-decoration: underline;
+}
+button {
+    background-color: #0061ff;
+    color:white;
+    padding: 0 5px;
+    border: none;
+    cursor: pointer;
 }
 /* Main css */
 /* first section  */
 section div > h1 {
-    font-size: 5em;
+    font-size: 4.5em;
     font-weight: 700;
     margin-top: 1.5em;
     margin-bottom: 1em;
@@ -25,26 +39,72 @@ section div > h1 {
     line-height: 1em;
     font-size: 1.2em;
 }
+.titleinfo button {
+    padding:10px 0;
+    width:50%;
+}
+.titleinfo a {
+    text-decoration: none;
+    color: #000;
+}
+.titleinfo  a > .fa-solid {
+    font-size: 50px;
+    margin-bottom:5px;
+}
 #jumbo {
     width: 100%;
+    position: absolute;
 }
 /* 2th section */
+#bluecircle {
+    width:20px;
+    height: 20px;
+    border:4px solid #0061ff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5em;
+}
 #emptycircle {
-    margin-right: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width:20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+#plansection .boxedSmall > h2 {
+    font-size: 35px;
+}
+.bold {
+    font-weight: bold;
+}
+.containerSolutions button {
+    padding:1em 0;
+}
+.containerSolutions a {
+    color: blue;
 }
 .containerSolutions {
     width:30%;
-    border: 2px black solid;
+    border: 1px  solid gray;
     margin-top: 1em;
 }
+.containerSolutions .fa-check {
+    color: blue;
+}
+
 .containerSolutionsBottom {
     width:100%;
-    border: 2px black solid;
-    margin-top: 1em;
+    border: 1px  solid gray;
+}
+.containerSolutionsBottom button {
+    padding:0.5em 1.5em;
 }
 .containerSolutions h5,.containerSolutionsBottom h5 {
     text-align: center;
     padding: 0.6em 0;
+    font-weight: 400;
 }
 .containerSolutions span:last-of-type {
     margin-bottom:9em;
@@ -55,6 +115,13 @@ section div > h1 {
 /* 3th section  */
 #partner {
     width: 100%;
+}
+#partnerbutton {
+    width: 40%;
+    padding:0.7em 0;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 /* 4th section  */
 .wid30 img {
@@ -67,6 +134,10 @@ section div > h1 {
 .wid50 h2 {
     margin-bottom:1em;
 }
+.margin-bottom-100 a{  
+    color: blue;
+}
+/* 5th Section  */
 .containerBoxes {
     color: white;
     width: 50%;
@@ -78,7 +149,6 @@ section div > h1 {
     color:white;
     
 }
-
 .bgdirtyWhite img {
     width:30%;
     margin-bottom: 2em;
@@ -90,6 +160,7 @@ section div > h1 {
     margin-top: 2em;
     color: black;
 }
+/* 6th section  */
 .wid40 h3 {
     font-size: 30px;
     color: #61082b;
@@ -97,6 +168,43 @@ section div > h1 {
 .padUpDown .fa-solid {
     margin-right:1em;
 }
+.faq:hover .dispNone {
+    display:inline-block;
+}
+.faq p:first-child {
+    display: inline;
+}
+.faq:hover .fa-angle-down {
+    transform:rotate(180deg);
+}
+.fa-angle-down {
+    display:inline;
+}
 .padUpDown span {
     font-weight: 600;
+}
+.bgLightblue button:last-child {
+    padding:0.7em 1em;
+    background-color: white;
+    color: black;
+    border:none;
+}
+/* Footer CSS */
+.bgBlack h3 {
+    color:white;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+footer hr {
+    color: white;
+    width: 15%;
+    margin-left:2em;
+    margin-bottom:2em;
+    border:1px solid white;
+}
+footer select {
+    margin-left:2em;
 }
