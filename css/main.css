@@ -18,7 +18,7 @@ z-index: 999;
 section div > h1 {
     font-size: 5em;
     font-weight: 700;
-    margin-top: 1em;
+    margin-top: 1.5em;
     margin-bottom: 1em;
 }
 .titleinfo p {
@@ -66,4 +66,27 @@ section div > h1 {
 }
 .wid50 h2 {
     margin-bottom:1em;
+}
+.containerBoxes {
+    color: white;
+    width: 50%;
+    padding: 1em;
+    height: 50%;
+}
+.containerBoxes img {
+    width: 55%;
+    color:white;
+    
+}
+
+.bgdirtyWhite img {
+    width:30%;
+    margin-bottom: 2em;
+}
+.bgdirtyWhite hr {
+    width: 30%;
+}
+.bgdirtyWhite p {
+    margin-top: 2em;
+    color: black;
 }
