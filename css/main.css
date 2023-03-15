@@ -27,6 +27,7 @@ button {
     border: none;
     cursor: pointer;
 }
+
 /* Main css */
 /* first section  */
 section div > h1 {
@@ -51,6 +52,9 @@ section div > h1 {
     font-size: 50px;
     margin-bottom:5px;
 }
+ .titleinfo a:hover .fa-arrow-down {
+    transform: scale(1.5);
+}
 #jumbo {
     width: 100%;
     position: absolute;
@@ -66,7 +70,7 @@ section div > h1 {
 }
 #emptycircle {
     margin-left: 1em;
-    margin-right: 1em;
+    margin-right: 0.5em;
     width:20px;
     height: 20px;
     display: inline-block;
@@ -165,22 +169,24 @@ section div > h1 {
     font-size: 30px;
     color: #61082b;
 }
-.padUpDown .fa-solid {
+.padUpDown .fa-angle-down {
     margin-right:1em;
 }
 .faq:hover .dispNone {
     display:inline-block;
+    transition:all 2s;
 }
 .faq p:first-child {
     display: inline;
 }
 .faq:hover .fa-angle-down {
     transform:rotate(180deg);
+    transition: 2s;
 }
 .fa-angle-down {
     display:inline;
 }
-.padUpDown span {
+.padUpDown p:first-child {
     font-weight: 600;
 }
 .bgLightblue button:last-child {
@@ -192,6 +198,7 @@ section div > h1 {
 /* Footer CSS */
 .bgBlack h3 {
     color:white;
+    margin-bottom: 1em;
 }
 footer a {
     text-decoration: none;
@@ -207,4 +214,9 @@ footer hr {
 }
 footer select {
     margin-left:2em;
+}
+footer select {
+    background-color: black;
+    color: lightgray;
+    border: none;
 }

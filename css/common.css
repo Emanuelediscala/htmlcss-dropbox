@@ -5,7 +5,6 @@
     box-sizing: border-box;
     font-family: arial;
     font-family: 'Open Sans', sans-serif;
-    font-family: 14px;
 }
 .boxedLarge {
     max-width: 1200px;
@@ -32,6 +31,9 @@
 }
 .wid70 {
     width: 70%;
+}
+.wid79 {
+    width: 79%;
 }
 .wid80 {
     width: 80%;
@@ -80,6 +82,12 @@
 .dispNone {
     display: none;
 }
+.boxShadow {
+    box-shadow: 0 0 0 1rem #ffffff99 inset;
+}
+.padRight {
+    padding: 3px;
+} 
 /* BG color  */
 .bgBlueButton {
     background-color:#0061ff;
